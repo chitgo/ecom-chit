@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <div className="">
       <header className="absolute top-0 left-0 right-0 px-4 mx-auto max-w-screen-2xl xl:px-28">
-        <nav className="container flex items-center justify-between pt-6 pb-3 md:py-4 ">
+        <nav className="container flex items-center justify-between pt-6 pb-3 mx-auto md:py-4 ">
           <FaSearch className="hidden w-5 h-5 cursor-pointer text-Black md:block" />
           <a href="#">
             <img src={logo} alt="logo" />
